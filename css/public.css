@@ -1,0 +1,64 @@
+/****清除样式****/
+*{margin:0;padding:0;}
+ul,li,a,img{
+    text-decoration:none;
+    list-style:none;
+    border:none;
+    vertical-align:top;
+}
+/*****清除浮动*****/
+.clearfix:after{
+    content:'';
+    width:0;
+    height:0;
+    display:block;
+    clear:both;
+}
+.clearfix{
+    overflow:hidden;
+}
+/******设置全体样式*******/
+body{
+    font:62.5% '微软雅黑','Microsoft YaHei','宋体','Arial';
+}
+#wrap{
+    max-width:1440px;
+    min-width:1200px;
+    overflow:hidden;
+    margin:0 auto;
+}
+a{color:#000;}
+.dis{display:none;}
+/**边框**/
+.borl{
+    border-left:1px solid #666;
+    border-right:1px solid #666;
+}
+.con-box1,.con-box1 ul li img,.con-box2-right,.con-box3-slide ul li,.con-box3-right,.frindlink,
+.company-right,.company-left,.table tr td{
+    border:1px solid #ccc;
+}
+/*****颜色*****/
+.header-top ul li a:hover,.con-box2-right ul li a:hover,.con-box3-left>a:hover,.con-box3-slide ul li a:hover,
+.con-box2-left-txt p a:hover,.con-box2-right ul li span,.frindlink a:hover,.company-left-zx li a:hover,
+.company-right-bottom ul li a:hover{
+    color:#ff0000;
+}
+/******浮动******/
+.header-scroll-news,.header-top ul li,.nav ul li,.con-box1 ul li,.banner p span,.con-box2>div,
+.con-box2-left-txt,.con-box2-left ul li img,.con-box3>div,.con-box3-slide ul li,.frindlink>img,
+.frindlink>ul,.credit ul li,.cnav ul li,.zxkf-l ul,.online,.company-left,.company-right,.yyqh img,
+.remittance li img,.remittance-txt{
+    float:left;
+}
+.header-top ul{
+    float:right;
+}
+/*******定位*******/
+.banner,.con-box2-right,.con-box2-left-txt p a,.header-scroll-news,.con-box3-left,.con-box3-slide ul,
+.zxkf-l ul li,.company-right-bottom{
+    position:relative;
+}
+.banner ul li,.banner p,.con-box2-right>a,.con-box3-left>a,.zxkf-l ul li a,.company-right-bottom-mt{
+    position:absolute;
+}

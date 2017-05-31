@@ -1,0 +1,358 @@
+/**********头部**********/
+.header-top{
+    height:30px;
+    overflow:hidden;
+    background:#E3E3E3;
+    position:relative;/*ie7*/
+}
+.header-scroll-news{
+    left:0;
+    top:0;
+}
+.header-scroll-news p{
+    width:600px;
+    margin-left:10px;
+}
+.header-scroll-news p,.header-top ul li,.table{
+    font-size:1.4em;
+    line-height:30px;
+}
+.header-top ul{
+    margin-right:30px;
+}
+.header-top ul li a{
+    padding:0 10px;
+}
+/********菜单栏*******/
+.nav{
+    height:52px;
+    background:url("../images/bg01.jpg") repeat-x;
+}
+.nav ul{
+    width:1050px;
+    margin:0 auto;
+}
+.nav ul li a{
+    height:44px;
+    font-size:1.6em;
+    line-height:48px;
+    padding:0 20px;
+    margin:4px 0;
+    display:block;
+}
+.nav ul li a:hover{
+    background:-webkit-linear-gradient(top,#ccc,#fff);
+    color:#0064AF;
+}
+/**********banner*********/
+.banner{
+    height:400px;
+}
+.banner ul li,.con-box3-slide ul{
+    left:0;
+    top:0;
+}
+.banner p{
+    right:10px;
+    bottom:10px;
+}
+.banner p span{
+    width:20px;
+    height:20px;
+    font-size:1.4em;
+    text-align:center;
+    line-height:20px;
+    background:#000;
+    color:#fff;
+    border:1px solid #000;
+    display:block;
+    margin:0 5px;
+}
+/***************box1***************/
+.contain{
+    width:1024px;
+    margin:5px auto;
+}
+.con-box1{
+    margin:5px 0;
+    padding:0 4px;
+}
+.con-box1 ul li img{
+    margin:5px 0;
+}
+.con-box1 ul li{
+    width: 211px;
+    font-size: 1.4em;
+    margin: 10px 0;
+    padding: 0 20px;
+}
+.con-box1 ul li,.frindlink>ul,.cnav ul li a{
+    border-right:1px solid #ccc;
+}
+.con-box1 ul li p{
+    font-size:0.9em;
+    text-indent:2em;
+}
+.con-box1 ul li p a{
+    color:#218F9A;
+}
+/**********box2*********/
+.con-box2-left,.con-box3-left{
+    width:745px;
+    margin-right:22px;
+    font-size:1.4em;
+    overflow:hidden;
+}
+.con-box2-right,.con-box3-right{
+    width:255px;
+}
+.con-box2-left ul li,.company-right-top h4,.company-right-top p,.company-right-bottom,.company-right-bottom ul,
+.remittance li{
+    margin:10px 0;
+}
+.con-box2-left-txt{
+    width:542px;
+    margin-left:10px;
+}
+.con-box2-left-txt p a{
+    color:#208895;
+    left:430px;
+    top:-22px;
+}
+.con-box2-left-txt span{
+    color:#666;
+    text-indent:2em;
+    display:block;
+    margin-top:-6px;
+}
+.con-box2-right>a{
+    font-size:1.2em;
+    right:10px;
+    top:10px;
+}
+.con-box2-right ul li,.company-left-zx li{
+    font-size:1.4em;
+    line-height:28px;
+    padding:0 5px;
+}
+.con-box2-right ul li span,.company-left-zx,.company-left-zx span,.company-right-bottom ul li span{
+    padding:0 5px;
+}
+.con-box3,.frindlink{
+    margin:5px 0;
+}
+.con-box3-left,.con-box3-right{
+    height:213px;
+}
+.con-box3-left{
+    border-bottom:2px solid #ccc;
+}
+.con-box3-left>a{
+    color:#ccc;
+    right:12px;
+    top:23px;
+}
+.con-box3-slide ul{
+    height:138px;
+    padding:12px 0;
+}
+.con-box3-slide ul li{
+    text-align:center;
+    margin:0 8px;
+}
+.con-box3-right p,.company-txt p{
+    padding-left:10px;
+    font-size:1.2em;
+}
+/**********friendlink**********/
+.frindlink>ul{
+    width:160px;
+    line-height:25px;
+    margin:10px 5px;
+    text-align:center;
+    font-size:1.4em;
+}
+.credit-txt{
+    width:140px;
+    display:inline-block;
+    margin:10px 0 0 97px;
+    font-size:1.4em;
+    line-height:25px;
+}
+.credit-li{
+    margin-top:30px;
+}
+/*************cnav****************/
+.cnav{
+    height:40px;
+    background:url("../images/bg03.png") repeat-x;
+}
+.cnav ul{
+    width:800px;
+    margin:0 auto;
+}
+.cnav ul li{
+    font-size:1.4em;
+    line-height:40px;
+}
+.cnav ul li a{
+    padding:0 30px;
+}
+/**********footer**********/
+.footer{
+    font-size:1.4em;
+    text-align:center;
+    line-height:25px;
+    padding:10px 0;
+}
+/***********在线客服************/
+.zxkf-l ul li a{
+    left:25px;
+}
+.zx1{
+    top:3px;
+}
+.zx2{
+    top:62px;
+}
+.zx3{
+    top:90px;
+}
+.zx4{
+    top:148px;
+}
+.zx5{
+    top:203px;
+}
+.online{
+    margin-top:50px;
+    cursor:pointer;
+}
+.zxkf{
+    position:fixed;
+    left:0;
+    top:100px;
+}
+/*********回到顶部********/
+.goTop{
+    position:fixed;
+    left:50%;
+    margin-left:720px;
+    bottom:30px;
+    cursor:pointer;
+}
+/***********公司简介***********/
+.company-left{
+    width:255px;
+    margin-right:20px;
+}
+.company-right{
+    width:735px;
+}
+.company-left-zx p,.company-right-top h2{
+    font-size:1.6em;
+    color:#4A6C82;
+    border-bottom:3px solid #CFE1EF;
+    padding:5px 0;
+}
+.company-left-zx li span{
+    color:#496C82;
+}
+.company-left-zx li,.company-right-bottom ul li{
+    border-bottom:1px dashed #ccc;
+}
+.kkm a{
+    margin:10px 25px;
+    display:block;
+}
+.company-txt{
+    border-top:1px solid #ccc;
+}
+.company-right,.remittance li img{
+    padding:5px;
+}
+.company-right-top1{
+    width:735px;
+    height:500px;
+    background:url("../images/gsjj5.jpg") 0 100px no-repeat;
+}
+.company-right-top h2{
+    font-size:1.8em;
+}
+.company-right-top>span{
+    font-size:1.2em;
+    display:block;
+    margin:-24px 0 0 510px;
+}
+.company-right-top h4{
+    font-size:1.6em;
+    background:#CFE1EF;
+    color:#6C8999;
+}
+.company-right-top p{
+    text-indent:2em;
+    text-justify:inter-ideograph;
+    text-align:justify;
+}
+.company-right-top p,.company-right-bottom ul li{
+    font-size:1.4em;
+    line-height:25px;
+}
+.company-right-top-txt{
+    width:350px;
+}
+/**************呼叫中心*************/
+.yyqh img{
+    vertical-align:bottom;
+    margin:15px 10px 0 0;
+}
+.yyqh p,.company-right-bottom ul li a,.company-right-bottom ul li span{
+    color:#486B81;
+}
+.company-right-bottom-mt{
+    left:0;
+    top:100px;
+}
+.yyqh h1{
+    font-size:1.8em;
+}
+/********机器详情*********/
+.machine li a{
+    height:40px;
+    font-size:1.6em;
+    line-height:40px;
+    color:#4C6C83;
+    padding-left:10px;
+    margin:2px 0;
+    display:block;
+    background:-webkit-linear-gradient(top,#f1f1f1,#E3E3E3);
+    background:-o-linear-gradient(top,#f1f1f1,#E3E3E3);
+    background:-moz-linear-gradient(top,#f1f1f1,#E3E3E3);
+    background:-ms-linear-gradient(top,#f1f1f1,#E3E3E3);/*ie10+*/
+    filter:
+    progid:DXImageTransform.Microsoft.Gradient(startColorStr='#f1f1f1',endColorStr='#E3E3E3',gradientType='0');/*ie7-9*/
+}
+/***********解决方案************/
+.company-right-bottom ul li b{
+    font-weight:normal;
+    color:#666;
+    float:right;
+    *margin-top:-25px;/*ie7*/
+}
+/***********客户汇款***********/
+.remittance li{
+    background:#f1f1f1;
+}
+.remittance li img{
+    border:3px solid #ccc;
+}
+/********联系我们*******/
+.mp{
+    width:730px;
+    margin:0 auto;
+}
+/***********话吧网络电话***********/
+.table{
+    width:420px;
+    text-align:center;
+}
